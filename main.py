@@ -1,6 +1,4 @@
 import speech_recognition as sr
-import PIL
-# from model import charToArray, asciicodes, brailles
 
 braille_dict = {
     'a': '⠁',
@@ -64,4 +62,4 @@ print('Você disse:', texto) #Printando o texto falado
 
 braille_result = text_to_braille(texto)
 
-print("Texto em Braille:", braille_result) #exibindo o texto em braile numerico
+print("Texto em Braille:", braille_result) #exibindo o texto em braile 
