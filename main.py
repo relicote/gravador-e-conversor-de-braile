@@ -65,5 +65,3 @@ print('Você disse:', texto) #Printando o texto falado
 braille_result = text_to_braille(texto)
 
 print("Texto em Braille:", braille_result) #exibindo o texto em braile numerico
-
-# converter o braile numerico em braile texto
