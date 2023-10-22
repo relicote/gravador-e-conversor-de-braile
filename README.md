@@ -1,4 +1,4 @@
-# gravador-e-conversor-de-braile
+# Gravador e conversor de braile
 
 Um aplicativo em Python que converte o audio falado em texto de braile.
 
