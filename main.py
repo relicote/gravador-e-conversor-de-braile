@@ -43,7 +43,9 @@ braille_dict = {
 
 
 rec = sr.Recognizer()
-# print(sr.Microphone().list_microphone_names())
+
+# Remover o comentário abaixo caso deseje encontrar a posição que seu microfone se encontra na lista.
+# print(sr.Microphone().list_microphone_names()) 
 
 with sr.Microphone(1) as mic:
     rec.adjust_for_ambient_noise(mic)
@@ -53,7 +55,6 @@ with sr.Microphone(1) as mic:
     audio = rec.listen(mic)
     texto = rec.recognize_google(audio, language="pt-BR")
 
-    # print(texto)
     
 
 def text_to_braille(texto):
